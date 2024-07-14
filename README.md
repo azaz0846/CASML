@@ -1,8 +1,6 @@
 # CSASML
----
 A lightweight Transformer model, combined with a split network and a method for extracting cross-scale features for classification tasks, called CSASML.
 ## Requirements
----
 - torch>=1.7.0
 - torchvision>=0.8.0
 - pyyaml
@@ -18,14 +16,12 @@ pip install grad-cam
 ```
 
 ## Training
----
 ```sh
 ch script
 bash train_csasml.sh
 ```
 
 ## Validation
----
 ```sh
 ch script
 bash val_csasml.sh
