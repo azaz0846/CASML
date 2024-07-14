@@ -1,5 +1,12 @@
-# CSASML
+# CSASML (CASML for WOCC2024)
 A lightweight Transformer model, combined with a split network and a method for extracting cross-scale features for classification tasks, called CSASML.
+
+### Architecture
+![CASML](https://github.com/azaz0846/CSASML/blob/main/figures/CASML.png)
+
+### Baseline Compare
+![Baseline](https://github.com/azaz0846/CSASML/blob/main/figures/baseline_compare.jpg)
+
 ## Requirements
 - torch>=1.7.0
 - torchvision>=0.8.0
