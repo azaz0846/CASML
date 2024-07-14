@@ -2,7 +2,7 @@
 A lightweight Transformer model, combined with a split network and a method for extracting cross-scale features for classification tasks, called CSASML.
 
 ### Architecture
-![CASML](https://github.com/azaz0846/CSASML/blob/main/figures/CASML.png)
+![CASML](https://github.com/azaz0846/CSASML/blob/main/figures/CASML.jpg)
 
 ### Baseline Compare
 ![Baseline](https://github.com/azaz0846/CSASML/blob/main/figures/baseline_compare.jpg)
