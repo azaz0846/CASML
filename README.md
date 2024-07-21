@@ -1,11 +1,11 @@
-# CSASML (CASML for WOCC2024)
-A lightweight Transformer model, combined with a split network and a method for extracting cross-scale features for classification tasks, called CSASML.
+# CASML (WOCC2024)
+A lightweight Transformer model, combined with a split network and a method for extracting cross-scale features for classification tasks, called CASML.
 
 ### Architecture
-![CASML](https://github.com/azaz0846/CSASML/blob/main/figures/CASML.jpg)
+![CASML](https://github.com/azaz0846/CASML/blob/main/figures/CASML.jpg)
 
 ### Baseline Compare
-![Baseline](https://github.com/azaz0846/CSASML/blob/main/figures/baseline_compare.jpg)
+![Baseline](https://github.com/azaz0846/CASML/blob/main/figures/baseline_compare.jpg)
 
 ## Requirements
 - torch>=1.7.0
@@ -25,17 +25,17 @@ pip install grad-cam
 ## Training
 ```sh
 ch script
-bash train_csasml.sh
+bash train_casml.sh
 ```
 
 ## Validation
 ```sh
 ch script
-bash val_csasml.sh
+bash val_.sh
 ```
 You need to check the location of the dataset and the output.
 
 ### This Token Mixer that uses the attention mechanism trained on CIFAR-100
 | Model | Resolution | Params | MACs | Top1 Acc | Download |
 | :---     |   :---:    |  :---: |  :---:  |  :---:  |  :---:  |
-| CSASML | 224 | 23.16 M | 5.9 G |  84.15 | [here](https://github.com/azaz0846/CSASML/releases/download/checkpoint-v1/model_best.pth.tar) |
+| CASML | 224 | 23.16 M | 5.9 G |  84.15 | [here](https://github.com/azaz0846/CASML/releases/download/checkpoint-v1/model_best.pth.tar) |
